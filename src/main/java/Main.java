@@ -9,11 +9,11 @@ public class Main {
         names.add("Martin");
         names.add("Dominic");
 
-//        for (String name : names) {
-//            if(name.length() >= 7) {
-//                System.out.println(name);
-//            }
-//        }
+        for (String name : names) {
+            if(name.length() >= 7) {
+                System.out.println(name);
+            }
+        }
 
         List<Product> products = names.stream()
                 .filter(name -> name.length() >= 7)
