@@ -8,6 +8,7 @@ public class Main {
         names.add("Florian");
         names.add("Martin");
         names.add("Dominic");
+        names.add("blauer button");
         names.add("roter-button");
         names.add("weiter button");
 
