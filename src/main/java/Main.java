@@ -9,6 +9,8 @@ public class Main {
         names.add("Martin");
         names.add("Dominic");
         names.add("blauer button");
+        names.add("roter-button");
+        names.add("weiter button");
 
         for (String name : names) {
             if(name.length() >= 7) {
